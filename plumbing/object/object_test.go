@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/filemode"
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem"
+	"github.com/daidokoro/go-git/plumbing"
+	"github.com/daidokoro/go-git/plumbing/filemode"
+	"github.com/daidokoro/go-git/plumbing/storer"
+	"github.com/daidokoro/go-git/storage/filesystem"
 
 	"github.com/src-d/go-git-fixtures"
 	. "gopkg.in/check.v1"

@@ -13,11 +13,11 @@ import (
 	"strings"
 	"time"
 
-	"gopkg.in/src-d/go-git.v4/plumbing/format/pktline"
-	"gopkg.in/src-d/go-git.v4/plumbing/protocol/packp"
-	"gopkg.in/src-d/go-git.v4/plumbing/protocol/packp/capability"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport"
-	"gopkg.in/src-d/go-git.v4/utils/ioutil"
+	"github.com/daidokoro/go-git/plumbing/format/pktline"
+	"github.com/daidokoro/go-git/plumbing/protocol/packp"
+	"github.com/daidokoro/go-git/plumbing/protocol/packp/capability"
+	"github.com/daidokoro/go-git/plumbing/transport"
+	"github.com/daidokoro/go-git/utils/ioutil"
 )
 
 const (

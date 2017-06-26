@@ -8,10 +8,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"gopkg.in/src-d/go-git.v4"
-	"gopkg.in/src-d/go-git.v4/config"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/storage/memory"
+	"github.com/daidokoro/go-git"
+	"github.com/daidokoro/go-git/config"
+	"github.com/daidokoro/go-git/plumbing"
+	"github.com/daidokoro/go-git/storage/memory"
 
 	"gopkg.in/src-d/go-billy.v2/memfs"
 )

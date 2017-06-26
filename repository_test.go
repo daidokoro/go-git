@@ -11,11 +11,11 @@ import (
 	"strings"
 
 	"github.com/src-d/go-git-fixtures"
-	"gopkg.in/src-d/go-git.v4/config"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/object"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem"
-	"gopkg.in/src-d/go-git.v4/storage/memory"
+	"github.com/daidokoro/go-git/config"
+	"github.com/daidokoro/go-git/plumbing"
+	"github.com/daidokoro/go-git/plumbing/object"
+	"github.com/daidokoro/go-git/storage/filesystem"
+	"github.com/daidokoro/go-git/storage/memory"
 
 	. "gopkg.in/check.v1"
 	"gopkg.in/src-d/go-billy.v2/memfs"

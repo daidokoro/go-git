@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 
 	"gopkg.in/src-d/go-billy.v2"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/filemode"
-	"gopkg.in/src-d/go-git.v4/utils/merkletrie/noder"
+	"github.com/daidokoro/go-git/plumbing"
+	"github.com/daidokoro/go-git/plumbing/filemode"
+	"github.com/daidokoro/go-git/utils/merkletrie/noder"
 )
 
 var ignore = map[string]bool{

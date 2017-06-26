@@ -4,8 +4,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"gopkg.in/src-d/go-git.v4/config"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem/internal/dotgit"
+	"github.com/daidokoro/go-git/config"
+	"github.com/daidokoro/go-git/storage/filesystem/internal/dotgit"
 )
 
 type ConfigStorage struct {
